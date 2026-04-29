@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paws of Hope Cat Rescue</title>
+  <link rel="stylesheet" href="CatAdopt_CSS.css">
+  <script src="CatAdopt_JAVASCRIPT.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">🐾 Paws of Hope</div>
+      <div class="menu-toggle" id="menuToggle">☰</div>
+      <ul class="menu" id="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#cats">Adopt</a></li>
+        <li><a href="#donate">Donate</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <span class="eyebrow">Philippine Cat Rescue & Adoption</span>
+      <h1>Not every rescue looks perfect. Every rescue deserves a home.</h1>
+      <p>Meet rescued cats from difficult beginnings — abandoned, injured, hungry, or simply forgotten — now waiting for someone who will choose them for life.</p>
+      <div class="hero-actions">
+        <a href="#" id="meetCatsBtn" class="btn">Meet Our Cats</a>
+        <a href="#donate" class="btn btn-outline">Help with a Donation</a>
+      </div>
+    </div>
+
+    <div class="hero-panel">
+      <img class="main-cat-photo" src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=1000&q=80" alt="Rescue cat looking for a home" />
+      <div class="floating-card">
+        <h3>16 cats waiting</h3>
+        <p>Every adoption opens one more space for another street cat to be rescued.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="stats-row">
+    <div class="stat-box"><h3>16</h3><p>Adoptable cats</p></div>
+    <div class="stat-box"><h3>4</h3><p>Partner groups</p></div>
+    <div class="stat-box"><h3>24/7</h3><p>Care and rescue support</p></div>
+    <div class="stat-box"><h3>1</h3><p>Home can change a life</p></div>
+  </div>
+
+  <section class="about" id="about">
+    <h2 class="section-title">About Our Rescue</h2>
+    <p class="section-subtitle">We rescue abandoned, injured, and homeless cats, giving them food, care, safety, and love until they find their forever families.</p>
+    <div class="about-box">
+      <p style="margin-bottom:20px; font-weight:bold; color:#8d3b32;">In collaboration with local animal welfare organizations in the Philippines</p>
+      <div class="partners">
+        <span class="tag">PAWS Philippines</span>
+        <span class="tag">CARA Welfare Philippines</span>
+        <span class="tag">Strays Worth Saving (SWS)</span>
+        <span class="tag">Cats of BGC</span>
+      </div>
+      <p>At Paws of Hope Cat Rescue, we believe no cat should feel forgotten. Some arrive scared, hungry, or lonely, but with patience and kindness, they learn to trust again. By adopting or donating, you help us save more lives.</p>
+    </div>
+  </section>
+
+  <section id="cats" style="display:none;">
+    <h2 class="section-title">Cats Waiting for Love</h2>
+    <p class="section-subtitle">These sweet cats are ready to fill your home with purrs, comfort, and unconditional love.</p>
+
+    <div class="cats-grid">
+      <div class="cat-card" style="cursor:pointer;" data-name="Blackie" data-age="2 years old" data-breed="Puspin / Domestic Shorthair" data-story="Blackie was found trembling beside a busy road in Manila, covered in dirt and afraid of every passing sound. He survived by hiding under cars during heavy rain and eating scraps." data-personality="Quiet, gentle, shy at first, but very loyal once he trusts you." data-reason="Adopt Blackie because he needs a patient home where he can finally feel safe and loved.">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFpPAqaw3cffPZxwdMzK_LRYWj-MqNfbJIAQ&s" alt="Blackie the cat" />
+        <div class="cat-info"><h3>Blackie</h3><span class="tag">2 yrs • Puspin</span><p>“I may be shy, but my love is worth the wait.”</p><button class="btn adopt-btn">Adopt Blackie</button></div>
+      </div>
+
+      <div class="cat-card" style="cursor:pointer;" data-name="Milo" data-age="1 year old" data-breed="Mixed Breed Rescue" data-story="Milo wandered around a neighborhood following people home, hoping someone would feed him or let him inside. He was friendly, but everyone kept walking away." data-personality="Playful, affectionate, energetic, and loves attention." data-reason="Adopt Milo because he will fill your home with joy, movement, and companionship.">
+        <img src="https://hips.hearstapps.com/hmg-prod/images/cutest-cat-breeds-ragamuffin-663a8c5191d6e.jpg?crop=0.537xw:1.00xh;0.197xw,0" alt="Milo the cat" />
+        <div class="cat-info"><h3>Milo</h3><span class="tag">1 yr • Mixed</span><p>“I followed people home, but no one chose me.”</p><button class="btn adopt-btn">Adopt Milo</button></div>
+      </div>
+
+      <div class="cat-card" style="cursor:pointer;" data-name="Bella" data-age="3 years old" data-breed="Puspin" data-story="Bella was rescued near a drainage area after heavy rain. She had been crying for days after losing her kittens during flooding." data-personality="Calm, motherly, gentle, and quietly affectionate." data-reason="Adopt Bella because she has survived heartbreak and still has so much love to give.">
+        <img src="https://paws.org.ph/wp-content/uploads/2023/05/IMG_20230515_110226-scaled-e1684202693703-1024x1024.jpg" alt="Marchmallow the cat" />
+        <div class="cat-info"><h3>Marshmallow</h3><span class="tag">2 yrs • Puspin</span><p>“Behind my quiet eyes is a heart hoping to be chosen.”</p><button class="btn adopt-btn">Adopt Bella</button></div>
+      </div>
+
+      <div class="cat-card" style="cursor:pointer;" data-name="Ponkan" data-age="4 years old" data-breed="Domestic Shorthair" data-story="Ponkan was found outside a closed house after his owners moved away. He waited near the gate for days, not understanding why they never came back." data-personality="Cuddly, loyal, trusting, and people-oriented." data-reason="Adopt Ponkan because he already knows how to love a family deeply—he just needs a family who will stay.">
+        <img src="https://paws.org.ph/wp-content/uploads/2023/05/Adopt-Heath-2.jpg" alt="Ponkan the cat" />
+        <div class="cat-info"><h3>Heath</h3><span class="tag">4 yrs • Domestic</span><p>“I had a home once. I still wait for forever.”</p><button class="btn adopt-btn">Adopt Ponkan</button></div>
+      </div>
+
+      <div class="cat-card" style="cursor:pointer;" data-name="Nala" data-age="5 years old" data-breed="Senior Puspin" data-story="Nala spent years surviving on the streets. She was rescued weak and underweight, but even when scared, she never scratched or bit her rescuers." data-personality="Calm, quiet, sweet, and perfect for a peaceful home." data-reason="Adopt Nala because senior cats are deeply grateful and deserve comfort after years of hardship.">
+        <img src="https://paws.org.ph/wp-content/uploads/2025/10/Copy-of-Esther-1-scaled-e1760075192430.jpg" alt="Nala the cat" />
+        <div class="cat-info"><h3>Nala</h3><span class="tag">5 yrs • Senior</span><p>“People say I’m too old, but I still dream of home.”</p><button class="btn adopt-btn">Adopt Nala</button></div>
+      </div>
+
+      <div class="cat-card" style="cursor:pointer;" data-name="Coco" data-age="8 months old" data-breed="Kitten Mix" data-story="Coco was found inside a cardboard box with her siblings. She was the smallest and weakest, but she fought hard to survive." data-personality="Curious, energetic, brave, and funny." data-reason="Adopt Coco because she will bring playfulness, laughter, and hope into your home.">
+        <img src="https://paws.org.ph/wp-content/uploads/2025/10/IMG_7344-scaled-e1759823282436.jpg" alt="Coco the cat" />
+        <div class="cat-info"><h3>Coco</h3><span class="tag">2 yrs • Puspin</span><p>“I was left in a box, but I still choose to trust.”</p><button class="btn adopt-btn">Adopt Coco</button></div>
+      </div>
+
+      <div class="cat-card" style="cursor:pointer;" data-name="Mingming" data-age="2 years old" data-breed="Puspin" data-story="Mingming lived near a sari-sari store and waited every day for leftover food. During one storm, she was found soaked and shaking under a bench." data-personality="Sweet, food-motivated, gentle, and affectionate." data-reason="Adopt Mingming because she only wants a warm corner, a full bowl, and someone to love.">
+        <img src="https://preview.redd.it/does-our-rescued-puspin-have-any-breed-s-mixed-in-v0-vqv2frnnypbe1.jpg?width=640&crop=smart&auto=webp&s=4eb44b1d17bcaa0054727e26637f117a6cd130e5" alt="Mingming the cat" />
+        <div class="cat-info"><h3>Mingming</h3><span class="tag">5 mos • Mixed</span><p>“A full bowl and soft hands would mean everything to me.”</p><button class="btn adopt-btn">Adopt Mingming</button></div>
+      </div>
+
+      <div class="cat-card" style="cursor:pointer;" data-name="Tala" data-age="1.5 years old" data-breed="Calico Puspin" data-story="Tala was rescued from a market area where she had to dodge feet, carts, and traffic every day just to survive." data-personality="Smart, alert, independent, but very loving when comfortable." data-reason="Adopt Tala because she is a survivor who deserves peace after always being on guard.">
+        <img src="https://huggibles.com/cdn/shop/articles/tabby-3_600x600_crop_center.jpg?v=1581304451" alt="Tala the cat" />
+        <div class="cat-info"><h3>Tala</h3><span class="tag">1.5 yrs • Orange</span><p>“I learned to be brave because I had no choice.”</p><button class="btn adopt-btn">Adopt Tala</button></div>
+      </div>
+
+      <div class="cat-card" style="cursor:pointer;" data-name="Simba" data-age="3 years old" data-breed="Orange Tabby" data-story="Simba was found limping near a parking lot. He had likely been hit or kicked, but he still rubbed against the rescuer’s hand when approached." data-personality="Friendly, forgiving, cuddly, and trusting." data-reason="Adopt Simba because he proves that even hurt animals can still choose love.">
+        <img src="https://i.pinimg.com/564x/9f/c2/a0/9fc2a0d3ab30d9c20322714eeb66417b.jpg" alt="Simba the cat" />
+        <div class="cat-info"><h3>Simba</h3><span class="tag">3 mos • Kitten</span><p>“I was hurt before, but I still believe humans can be kind.”</p><button class="btn adopt-btn">Adopt Simba</button></div>
+      </div>
+
+      <div class="cat-card" style="cursor:pointer;" data-name="Pearl" data-age="6 months old" data-breed="White Kitten Mix" data-story="Pearl was found crying behind a trash bin, too young to survive alone. She was hungry, dirty, and looking for her mother." data-personality="Soft, clingy, playful, and loves being carried." data-reason="Adopt Pearl because she deserves to grow up knowing only safety and love.">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTReGF18UQ-MSlqdeP2OLp95qdbEA14VUe-9A&s" alt="lupit the cat" />
+        <div class="cat-info"><h3>lupit</h3><span class="tag">6 mos • Kitten</span><p>“I was too little to be alone.”</p><button class="btn adopt-btn">Adopt Pearl</button></div>
+      </div>
+
+      <div class="cat-card" style="cursor:pointer;" data-name="Kape" data-age="2.5 years old" data-breed="Black Puspin" data-story="Kape stayed outside a small cafe where people sometimes fed him. When the cafe closed, he lost the only place where he felt safe." data-personality="Gentle, observant, calm, and loyal." data-reason="Adopt Kape because black cats are often overlooked, but they are just as loving and magical.">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-3whr5FHNsxqVJ0tzNsxESXXMdVNnlOZhXA&s" alt="Kape the cat" />
+        <div class="cat-info"><h3>Kape</h3><span class="tag">2.5 yrs • Black Cat</span><p>“Please don’t pass me by because of my color.”</p><button class="btn adopt-btn">Adopt Kape</button></div>
+      </div>
+
+      <div class="cat-card" style="cursor:pointer;" data-name="Luningning" data-age="4 months old" data-breed="Tabby Kitten" data-story="Luningning was rescued from a roadside after being separated from her mother. She kept meowing at passing cars, hoping someone would stop." data-personality="Tiny, vocal, playful, and brave." data-reason="Adopt Luningning because she is still young and deserves to grow up in a loving home.">
+        <img src="https://images.unsplash.com/photo-1608032364895-0da67af36cd2?auto=format&fit=crop&w=900&q=80" alt="Luningning the cat" />
+        <div class="cat-info"><h3>Luningning</h3><span class="tag">9 mos • Tabby</span><p>“I cried by the road until someone finally stopped.”</p><button class="btn adopt-btn">Adopt Luningning</button></div>
+      </div>
+
+      <div class="cat-card" style="cursor:pointer;" data-name="Amihan" data-age="6 years old" data-breed="Senior Domestic Cat" data-story="Amihan was rescued after years of living near rooftops and alleys. She is older now and wants quiet days instead of another night outside." data-personality="Wise, peaceful, low-maintenance, and affectionate." data-reason="Adopt Amihan because older cats may not ask loudly, but they need love just as much.">
+        <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?auto=format&fit=crop&w=900&q=80" alt="Amihan the cat" />
+        <div class="cat-info"><h3>Amihan</h3><span class="tag">1.5 yrs • Tilapia</span><p>“I am tired of surviving. I want to rest beside someone.”</p><button class="btn adopt-btn">Adopt Amihan</button></div>
+      </div>
+
+      <div class="cat-card" style="cursor:pointer;" data-name="Bituin" data-age="1 year old" data-breed="Tortoiseshell Puspin" data-story="Bituin was found hiding in a construction site. The loud machines scared her, but she kept returning because there was nowhere else to go." data-personality="Shy, intelligent, cautious, but very sweet when trusted." data-reason="Adopt Bituin because she needs a calm home where she can finally stop being afraid.">
+        <img src="https://www.dailypaws.com/thmb/9A-erphhZXL_ldcDBDxrc49qtWs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/egyptian-mau-at-window-baguettemau-4e14458f406b47d6b1ab96acb7b1b16c.jpg" alt="Bituin the cat" />
+        <div class="cat-info"><h3>Bituin</h3><span class="tag">2 yr • Tilapia</span><p>“The world was loud. I just wanted somewhere quiet.”</p><button class="btn adopt-btn">Adopt Bituin</button></div>
+      </div>
+
+      <div class="cat-card" style="cursor:pointer;" data-name="Puti" data-age="2 years old" data-breed="White Puspin" data-story="Puti was rescued with dirty fur and tired eyes near a terminal. Many people saw her every day, but no one stopped until a volunteer noticed she was sick." data-personality="Soft, gentle, grateful, and loves slow petting." data-reason="Adopt Puti because she has waited long enough to be more than a cat people walk past.">
+        <img src="https://preview.redd.it/this-cute-white-cat-v0-k268l5p1jibf1.jpeg?width=640&crop=smart&auto=webp&s=15579125ab37a2549b98838432b77414dea46841" alt="Puti the cat" />
+        <div class="cat-info"><h3>Puti</h3><span class="tag">2 yrs • Persian</span><p>“So many people saw me. I only needed one to care.”</p><button class="btn adopt-btn">Adopt Puti</button></div>
+      </div>
+
+      <div class="cat-card" style="cursor:pointer;" data-name="Sampaguita" data-age="7 months old" data-breed="Gray and White Kitten Mix" data-story="Sampaguita was found beside a flower stall after hiding there for warmth at night. Vendors noticed she kept returning, thin and hungry, but still softly meowing at people." data-personality="Sweet, clingy, playful, and loves gentle attention." data-reason="Adopt Sampaguita because she is still young and deserves to grow up inside a safe, loving home instead of outside looking for shelter.">
+        <img src="https://www.thesprucepets.com/thmb/1F0uV6fIOndarWvuUsR81n5A4dE=/1080x0/filters:no_upscale():strip_icc()/27890562_1819212385038785_544807663670657024_n-5a931aba8e1b6e00361a9eec.jpg" alt="Sampaguita the cat" />
+        <div class="cat-info"><h3>Sampaguita</h3><span class="tag">7 mos • Kitten</span><p>“I slept near flowers, hoping someone would see me bloom too.”</p><button class="btn adopt-btn">Adopt Sampaguita</button></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="process" id="process">
+    <h2 class="section-title">How Adoption Works</h2>
+    <p class="section-subtitle">We make adoption simple, thoughtful, and focused on matching every cat with the right home.</p>
+    <div class="process-grid">
+      <div class="process-card">
+        <span>1</span>
+        <h3>Meet the Cats</h3>
+        <p>Click each cat to read their story, personality, and the kind of home they need.</p>
+      </div>
+      <div class="process-card">
+        <span>2</span>
+        <h3>Choose to Adopt</h3>
+        <p>Press the adopt button and the form will automatically prepare the application for that cat.</p>
+      </div>
+      <div class="process-card">
+        <span>3</span>
+        <h3>Give Them Home</h3>
+        <p>After review, the rescue team helps make sure the cat safely joins your family.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="quote-box">
+    “Saving one cat will not change the world, but for that one cat, the world changes forever.”
+  </div>
+
+  <section class="donate" id="donate">
+    <h2 class="section-title">Donate to Save More Cats</h2>
+    <p class="section-subtitle">Your donation helps provide food, medicine, shelter, rescue transport, and emergency care for rescued cats in the Philippines.</p>
+
+    <div class="donation-box">
+      <h3>Choose an amount</h3>
+      <div class="amounts">
+        <div class="amount">₱50</div>
+        <div class="amount">₱100</div>
+        <div class="amount">₱250</div>
+        <div class="amount">₱500</div>
+        <div class="amount">₱1000</div>
+      </div>
+
+      <h3 style="margin-top:25px;">Donor details</h3>
+      <input type="text" id="donorName" placeholder="Full Name (e.g. Juan Dela Cruz)" />
+      <input type="email" id="donorEmail" placeholder="Email Address" />
+
+      <h3 style="margin-top:25px;">Choose payment method</h3>
+      <div class="amounts payment-options">
+        <div class="amount payment">GCash</div>
+        <div class="amount payment">Maya</div>
+        <div class="amount payment">Bank Transfer</div>
+      </div>
+
+      <div id="paymentDetails" style="display:none; margin-top:20px; background:#fffaf5; padding:22px; border-radius:22px; border:1px solid #e5cabc; text-align:left;">
+        <h3 id="paymentTitle" style="color:#b85c45; margin-bottom:10px;"></h3>
+        <div style="display:grid; grid-template-columns:120px 1fr; gap:18px; align-items:center;">
+          <img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=FakeDonationQRCode123" alt="QR Code" style="width:120px; height:120px; border-radius:16px;" />
+          <div>
+            <p id="paymentInstruction"></p>
+            <p><b>Account Name:</b> Paws of Hope Cat Rescue</p>
+            <p id="paymentAccount"></p>
+          </div>
+        </div>
+        <input type="number" id="referenceNumber" placeholder="Enter transaction number (numbers only)" style="margin-top:15px; width:100%;" />      </div>
+
+      <p id="donationMessage">Even ₱50 can help buy food, medicine, or warm bedding for a rescued cat.</p>
+      <br />
+      <button class="btn" id="donateBtn">Submit Donation</button>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+  <h2 class="section-title">Contact Us</h2>
+  <p class="section-subtitle">Reach out to us or send feedback about your experience.</p>
+
+  <div style="text-align:center; margin-bottom:25px;">
+    <p><b>Facebook:</b> <a href="https://facebook.com" target="_blank">Paws of Hope Cat Rescue</a></p>
+    <p><b>Email:</b> pawsofhope@gmail.com</p>
+    <p><b>Address:</b> Pasig City, Metro Manila, Philippines</p>
+  </div>
+
+  <form id="contactForm">
+    <input type="text" placeholder="Full Name" required />
+    <input type="email" placeholder="Email Address" required />
+    <textarea rows="5" placeholder="Your feedback or message" required></textarea>
+    <button type="submit" class="btn">Submit</button>
+  </form>
+</section>
+
+  <footer>
+    <p>© 2026 Paws of Hope Cat Rescue | Adopt. Donate. Save Lives.</p>
+  </footer>
+
+  <div class="popup" id="popup"></div>
+
+  <div class="modal" id="catModal">
+    <div class="modal-content">
+      <span class="close-modal" id="closeModal">&times;</span>
+      <h2 id="modalName"></h2>
+      <p><b>Age:</b> <span id="modalAge"></span></p>
+      <p><b>Breed:</b> <span id="modalBreed"></span></p>
+      <p><b>Story:</b> <span id="modalStory"></span></p>
+      <p><b>Personality:</b> <span id="modalPersonality"></span></p>
+      <p><b>Why adopt me?</b> <span id="modalReason"></span></p>
+      <button class="btn" id="modalAdoptBtn">Apply to Adopt</button>
+    </div>
+  </div>
+
+  <div class="modal" id="adoptionModal">
+    <div class="modal-content">
+      <span class="close-modal" id="closeAdoptionModal">&times;</span>
+      <h2>Adoption Application</h2>
+      <p id="adoptionIntro">You are applying to adopt a rescued cat.</p>
+      <form id="adoptionForm">
+        <input type="text" id="selectedCat" placeholder="Selected Cat" readonly required />
+        <input type="text" id="adopterName" placeholder="Full Name" required />
+        <input type="email" id="adopterEmail" placeholder="Email Address" required />
+        <input type="text" id="adopterPhone" placeholder="Phone Number" required />
+        <textarea rows="4" id="adopterHome" placeholder="Tell us about your home and why you want to adopt" required></textarea>
+        <button type="submit" class="btn">Submit Application</button>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
